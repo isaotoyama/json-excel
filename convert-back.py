@@ -54,8 +54,8 @@ def excel_to_json_with_reversed_hyperlinks(excel_file_path, json_file_path):
         return f"An error occurred: {e}"
 
 # File paths for conversion
-excel_file_path = 'files/zzz.xlsx'  # Path to the uploaded Excel file
-json_file_path_reversed = 'files/zzz.json'  # Path to the desired JSON file
+excel_file_path = 'files/resource.xlsx'  # Path to the uploaded Excel file
+json_file_path_reversed = 'files/resource.json'  # Path to the desired JSON file
 
 # Convert Excel file back to JSON with reversed hyperlinks
 result_reversed = excel_to_json_with_reversed_hyperlinks(excel_file_path, json_file_path_reversed)
